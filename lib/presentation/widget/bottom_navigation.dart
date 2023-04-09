@@ -12,7 +12,7 @@ class BottomNavigation extends StatefulWidget {
 
 class _BottomNavigationState extends State<BottomNavigation> {
   int selectedIndex = 0;
-  List<String> appBarTitle = ['Main', 'Tutorial', 'Logout'];
+  List<String> appBarTitle = ['Main', 'Bantuan', 'Logout'];
   static const List<Widget> widgetOptions = [
     MainScreen(),
     TutorialScreen(),
@@ -36,7 +36,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.book),
-            label: 'Tutorial',
+            label: 'Bantuan',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.logout),
